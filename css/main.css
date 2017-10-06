@@ -3,11 +3,12 @@ html {
 }
 
 .banner {
-  background-image: url("../images/seamless-starfield-texture.jpg");
+  background-image: url("../images/starfield.jpg");
 }
 
 .banner-content {
   color: #fff;
+  text-shadow: 0px 0px 10px #fff;
 }
 
 .btn-wrapper a {
