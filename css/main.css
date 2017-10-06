@@ -1,0 +1,13 @@
+html {
+  font-family: "Ubuntu Condensed", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.banner {
+  background-size: cover;
+}
+
+.banner-content {
+  background-image: url("../images/seamless-starfield-texture.jpg");
+}
