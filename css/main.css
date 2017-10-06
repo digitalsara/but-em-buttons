@@ -29,6 +29,7 @@ html {
   background-color: rgba(180, 255, 244, .2);
   border-color: #90ccc3;
   color: #b4fff4;
+  transform: translate(0, .25em);
 }
 
 .btn-wrapper:hover .icon {
