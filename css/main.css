@@ -22,6 +22,7 @@ html {
   background-color: rgba(180, 255, 244, .2);
   border-color: #90ccc3;
   color: #b4fff4;
+  transition: all 250ms ease;
 }
 
 .btn-wrapper a:active,
@@ -32,8 +33,13 @@ html {
   transform: translate(0, .25em);
 }
 
-.btn-wrapper:hover .icon {
-  transform: translate(0.5em -0.5em);
+.icon,
+.btn {
+  transition: all 250ms ease;
+}
+
+.icon:hover {
+  transform: translate(.5em);
   transition: all 250ms ease;
 }
 
