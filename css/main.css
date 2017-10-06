@@ -1,13 +1,24 @@
 html {
   font-family: "Ubuntu Condensed", sans-serif;
-  width: 100%;
-  height: 100%;
 }
 
 .banner {
-  background-size: cover;
+  background-image: url("../images/seamless-starfield-texture.jpg");
 }
 
 .banner-content {
-  background-image: url("../images/seamless-starfield-texture.jpg");
+  color: #fff;
+}
+
+.btn-wrapper a {
+  border-color: #90ccc3;
+  border-radius: 8px;
+  color: #b4fff4;
+  padding: 1em;
+}
+
+.btn-wrapper a:hover {
+  background-color: rgba(180, 255, 244, .2);
+  border-color: #90ccc3;
+  color: #b4fff4;
 }
