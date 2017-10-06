@@ -33,7 +33,7 @@ html {
 }
 
 .btn-wrapper:hover .icon {
-  transform: translate(.5em -.5em);
+  transform: translate(0.5em -0.5em);
   transition: all 250ms ease;
 }
 
