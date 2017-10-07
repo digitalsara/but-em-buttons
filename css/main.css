@@ -12,31 +12,22 @@ html {
   text-shadow: 1px 1px 30px rgba(255, 255, 255, .7);
 }
 
-.btn-wrapper a {
+.btn {
   border-color: #90ccc3;
   border-radius: 8px;
   color: #b4fff4;
-  padding: 1em 2em 1em 1em;
+  padding: 1em;
 }
 
-.btn-wrapper a:hover {
+.btn:hover {
   background-color: rgba(180, 255, 244, .2);
   border-color: #90ccc3;
   color: #b4fff4;
   transition: all 250ms ease;
 }
 
-.btn-ghost:active,
-.btn-ghost:focus {
-  background-color: rgba(180, 255, 244, .2);
-  border-color: #90ccc3;
-  color: #b4fff4;
-  transition: all 250ms ease-in-out;
-  transform: translate(0, .25em);
-}
-
-.btn:active {
-  top: 1em;
+.icon {
+  bottom: .25em;
 }
 
 .icon,
@@ -44,20 +35,42 @@ html {
   transition: all 250ms ease;
 }
 
-.icon:hover {
+.btn:active {
+  top: 1em;
+  transform: translate(0, .25em);
+}
+
+.btn-ghost:hover .icon {
+  transform: translate(0, -.5em);
+}
+
+/*.btn-ghost:active,
+.btn-ghost:focus {
+  background-color: rgba(180, 255, 244, .2);
+  border-color: #90ccc3;
+  color: #b4fff4;
+  transition: all 250ms ease-in-out;
+  transform: translate(0, .25em);
+}*/
+
+/*.btn:active {
+  top: 1em;
+}*/
+
+/*.btn:hover {
   transform: translate(.5em);
   transition: all 250ms ease-in-out;
-}
+}*/
 
-.btn-wrapper:hover .icon,
-.btn-wrapper:active .icon,
-.btn-wrapper:focus .icon {
+/*.btn:hover .icon,
+.btn:active .icon,
+.btn:focus .icon {
   transition: all 250ms ease-in-out;
-  transform: translate(0, -.75em);
-}
+  transform: translate(0, .75em);
+}*/
 
-i {
+/*.btn i {
   padding-left: 8em;
-  left: 5em;
+  left: 1em;
   top: 1.25em;
-}
+}*/
