@@ -19,7 +19,7 @@ html {
   padding: 1em 2em 1em 1em;
 }
 
-.btn-ghost:hover {
+.btn-wrapper a:hover {
   background-color: rgba(180, 255, 244, .2);
   border-color: #90ccc3;
   color: #b4fff4;
