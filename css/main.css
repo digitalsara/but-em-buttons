@@ -19,7 +19,8 @@ html {
   padding: 1em;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
   background-color: rgba(180, 255, 244, .2);
   border-color: #90ccc3;
   color: #b4fff4;
@@ -43,34 +44,3 @@ html {
 .btn-ghost:hover .icon {
   transform: translate(0, -.5em);
 }
-
-/*.btn-ghost:active,
-.btn-ghost:focus {
-  background-color: rgba(180, 255, 244, .2);
-  border-color: #90ccc3;
-  color: #b4fff4;
-  transition: all 250ms ease-in-out;
-  transform: translate(0, .25em);
-}*/
-
-/*.btn:active {
-  top: 1em;
-}*/
-
-/*.btn:hover {
-  transform: translate(.5em);
-  transition: all 250ms ease-in-out;
-}*/
-
-/*.btn:hover .icon,
-.btn:active .icon,
-.btn:focus .icon {
-  transition: all 250ms ease-in-out;
-  transform: translate(0, .75em);
-}*/
-
-/*.btn i {
-  padding-left: 8em;
-  left: 1em;
-  top: 1.25em;
-}*/
