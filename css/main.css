@@ -18,15 +18,15 @@ html {
   padding: 1em 1.75em;
 }
 
-.btn-wrapper a:hover {
+.btn-ghost:hover {
   background-color: rgba(180, 255, 244, .2);
   border-color: #90ccc3;
   color: #b4fff4;
   transition: all 250ms ease;
 }
 
-.btn-wrapper a:active,
-.btn-wrapper a:focus {
+.btn-ghost:active,
+.btn-ghost:focus {
   background-color: rgba(180, 255, 244, .2);
   border-color: #90ccc3;
   color: #b4fff4;
