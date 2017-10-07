@@ -30,6 +30,7 @@ html {
   background-color: rgba(180, 255, 244, .2);
   border-color: #90ccc3;
   color: #b4fff4;
+  transition: all 250ms ease-in-out;
   transform: translate(0, .25em);
 }
 
@@ -44,12 +45,13 @@ html {
 
 .icon:hover {
   transform: translate(.5em);
-  transition: all 250ms ease;
+  transition: all 250ms ease-in-out;
 }
 
 .btn-wrapper:hover .icon,
 .btn-wrapper:active .icon,
 .btn-wrapper:focus .icon {
+  transition: all 250ms ease-in-out;
   transform: translate(0, -.75em);
 }
 
