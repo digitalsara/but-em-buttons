@@ -15,7 +15,7 @@ html {
   border-color: #90ccc3;
   border-radius: 8px;
   color: #b4fff4;
-  padding: 1em;
+  padding: 1em 1.75em;
 }
 
 .btn-wrapper a:hover {
@@ -33,6 +33,10 @@ html {
   transform: translate(0, .25em);
 }
 
+.btn:active {
+  top: 1em;
+}
+
 .icon,
 .btn {
   transition: all 250ms ease;
@@ -47,4 +51,10 @@ html {
 .btn-wrapper:active .icon,
 .btn-wrapper:focus .icon {
   transform: translate(0, -.75em);
+}
+
+i {
+  padding-left: 8em;
+  left: 6em;
+  top: 1.25em;
 }
