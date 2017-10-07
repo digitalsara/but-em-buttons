@@ -3,6 +3,7 @@ html {
 }
 
 .banner {
+  padding-top: 12em;
   background-image: url("../images/starfield.png");
 }
 
@@ -15,7 +16,7 @@ html {
   border-color: #90ccc3;
   border-radius: 8px;
   color: #b4fff4;
-  padding: 1em 1.75em;
+  padding: 1em 2em 1em 1em;
 }
 
 .btn-ghost:hover {
@@ -57,6 +58,6 @@ html {
 
 i {
   padding-left: 8em;
-  left: 6em;
+  left: 5em;
   top: 1.25em;
 }
